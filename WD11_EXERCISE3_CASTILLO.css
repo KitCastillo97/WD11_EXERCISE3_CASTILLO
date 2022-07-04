@@ -1,0 +1,203 @@
+*{
+    color: #e6deae;
+}
+* a{
+    font-style: italic;
+    font-size: small;
+    font-weight: bolder;
+}
+.header{
+    position: relative;
+    margin-top: 0;
+    margin-bottom: O;
+    height: auto;
+    background-color: antiquewhite;
+    background-blend-mode: multiply;
+}
+.header img{
+    z-index: 1;
+    position: relative;
+    float: left;
+    width: 170px;
+    height: 100px;
+}
+.header h1{
+    text-shadow: 1px 1px 1px black;
+    font-size: 45;
+    text-align: center;
+    top: 0;
+    left: 0;
+    margin-bottom: 0;
+}
+.navBar{
+    position: static;
+    left: 0;
+    top: 0;
+    border: 0;
+    height: auto;
+    width: 100%;
+    z-index: 30;
+    vertical-align: baseline;
+}
+.navBar ul {
+    list-style-type: none;
+    margin: 1 4;
+    padding: 1 4;
+    overflow: hidden;
+    background-color: #333;
+  }
+  .navBar li {
+    float: left;
+  } 
+  .navBar li a {
+    border-right-style: groove;
+    display: block;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  .navBar li a:hover {
+    background-color: #111;
+  }
+  #About img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-bottom: 7%;
+  }
+  #About h1{
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+  }
+  #About p{
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    border-top-style: groove;
+    border-bottom-style: groove;
+    color: #111;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7%;
+  }
+  #History{
+    background-color: #333;
+    margin-bottom: 7%;
+  }
+  #History h1{
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 1px 1px 1px rgb(255, 253, 253);
+    margin-right: 20%;
+  }
+  #History p{
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    border-color:#e6deae ;
+    border-top-style: groove;
+    border-bottom-style: groove;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #Tourist{
+    height: auto;
+  }
+  #Tourist h1{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20%;
+    text-shadow: 1px 1px 1px black;
+  }
+  #lA{
+    text-align: center;
+    margin-left: 8%;
+    text-shadow: 1px 1px 1px black;
+  }
+  #apo1 img{
+    float: left;
+    margin-left: 5%;
+    margin-right: 3%;
+    align-items: left;
+    width: 30%;
+    height: 30%;
+  }
+  #apoP{
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    text-align: justify;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    color: #111;
+  }
+  #apo2 img{
+    float: right;
+    margin-left: 3%;
+    margin-right: 5%;
+    align-items: left;
+    width: 30%;
+    height: 30%;
+  }
+  #howToGetThere{
+    text-align: left;
+    margin-left: 8%;
+    text-shadow: 1px 1px 1px black;
+  }
+  #apoP2{
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: #111;
+  }
+  #Accomodation{
+    background-color: #333;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  #Accomodation h1{
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  }
+  #Accomodation img{
+    text-align: center;
+    width: 300;
+    height: 300;
+  }
+  #Accomodation table{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #Accomodation table th{
+    text-align: left;
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  }
+  #Accomodation table td{
+    text-align: left;
+    letter-spacing: 1.5;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+  }
+  #footer{
+    padding: 10;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    color: #111;
+    background-color: antiquewhite;
+  }
+  #forms form label{
+    color: #111;
+  }
+  #forms form input{
+    color: #111;
+  }
+  #footer p{
+    color: #111;
+  }
